@@ -20,6 +20,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_CERTIFICATE := platform
 LOCAL_PACKAGE_NAME := DeviceHandler
+LOCAL_JAVA_LIBRARIES := org.slim.framework
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_DEX_PREOPT := false
 
